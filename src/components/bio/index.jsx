@@ -4,7 +4,7 @@ import Image from 'gatsby-image'
 
 import './index.scss'
 
-export const Bio = () => (
+export const Bio = ({ name }) => (
   <StaticQuery
     query={bioQuery}
     render={data => {
@@ -23,11 +23,11 @@ export const Bio = () => (
                 }}
               />
               <div className="author-name">
-                <span className="author-name-prefix">Written by</span>
-                <Link to={'/about'} className="author-name-content">
+                <span className="author-name-prefix">Written by {name}</span>
+                {/* <Link to={'/about'} className="author-name-content">
                   <span>@{author}</span>
-                </Link>
-                <div className="author-introduction">{introduction}</div>
+                </Link> */}
+                <div className="author-introduction">Food is good!</div>
                 <p className="author-socials">
                   {social.github && (
                     <a href={`https://github.com/${social.github}`}>GitHub</a>
