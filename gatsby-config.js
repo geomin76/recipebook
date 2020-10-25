@@ -101,5 +101,18 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `src/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `src/images`,
+      },
+    },
   ],
 }
