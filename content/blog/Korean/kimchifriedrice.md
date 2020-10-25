@@ -5,6 +5,7 @@ date: 2020-10-25
 category: 'Korean'
 draft: false
 featuredImage: ../../../src/images/kimchifriedrice.jpg
+description: Kimchi Fried Rice (Kimchi Bokkeumbap, 김치 볶음밥) is a popular, simple, healthy and delicious Korean dish with kimchi and rice as the primary ingredients. This dish can include a variety of other ingredients as well.
 ---
 
 ### Ingredients (for one serving)
