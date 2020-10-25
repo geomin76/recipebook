@@ -4,6 +4,7 @@ name: 'Geo'
 date: 2020-10-22
 category: 'Korean'
 draft: false
+featuredImage: ../../../src/images/atlas.png
 ---
 
 Checkout this food
