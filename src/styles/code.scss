@@ -61,6 +61,13 @@ pre[class*='language-'] {
   border-radius: 0.6em;
 }
 
+.image {
+  width: 35%;
+  height: 35%;
+  float: right;
+  padding-right: 0.7em;
+}
+
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
   background: #212121;
