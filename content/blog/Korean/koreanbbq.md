@@ -1,7 +1,7 @@
 ---
 title: 'Bulgogi'
 name: 'Geo'
-date: 2020-12-6
+date: 2020-12-06
 category: 'Korean'
 draft: false
 featuredImage: ../../../src/images/koreanbbq.jpg
