@@ -9,7 +9,7 @@ export const ThumbnailItem = ({ node }) => (
   <Link className={`thumbnail ${TARGET_CLASS}`} to={node.fields.slug}>
     <div key={node.fields.slug}>
       <h3 style={{display : 'inline-block'}}>{node.frontmatter.title || node.fields.slug}</h3>
-      <Img className="image" style={{display : 'inline-block' }} fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
+      <Img className="image" style={{display : 'inline-block', width: 175, padding: 5 }} fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
       <p style={{ paddingRight: 40, width: 380 }}>{node.frontmatter.description}</p>
       {/* <p dangerouslySetInnerHTML={{ __html: node.excerpt }} /> */}
     </div>
